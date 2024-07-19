@@ -1,0 +1,25 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.intro {
+    font-family: 'Poppins', sans-serif;
+    color: #28283b;
+}
+
+/* .intro-text {
+    font-size: 1.5em;
+}
+
+.intro-desc {
+    font-size: 1em;
+}
+
+.intro-image {
+    width: 100px;
+    height: 100px;
+} */

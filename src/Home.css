@@ -1,0 +1,81 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.section {
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 100px;
+}
+
+.section-title {
+    font-size: 1.5em;
+}
+
+h1 {
+    text-align: left;
+    font-size: 2em;
+}
+
+.job-experience {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.job-header,
+.education-header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+}
+
+.job-title h2,
+.education-title h2 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+h4 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.job-dates,
+.education-dates {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 0;
+}
+
+.job-experience,
+.education {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.description,
+.contact-info {
+    color: #4a4a4a;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 1.2;
+}
+
+a {
+    color: light-blue;
+    text-decoration: none;
+}
+
+a.visited {
+    color: light-blue;
+    text-decoration: none;
+}
+
+.contact-icon {
+    color: #696969;
+}

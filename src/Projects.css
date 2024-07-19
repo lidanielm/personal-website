@@ -1,0 +1,46 @@
+.project {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.project-icon {
+    width: 200px;
+    height: 200px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-header {
+    font-size: 1.5em;
+}
+
+.atx {
+    color: black;
+    border-radius: 10px;
+}
+
+.project-info {
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 1.2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.more-info {
+    margin-top: 10px;
+}
+
+/* .more-info:hover {
+    text-shadow: 0px 0px 2px blue;
+    transition: text-shadow 0.15s ease;
+} */
