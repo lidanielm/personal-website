@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: auto;
 }
 
 .intro {
@@ -11,15 +10,20 @@
     color: #28283b;
 }
 
-/* .intro-text {
+.intro-text {
     font-size: 1.5em;
+    margin: auto;
 }
 
 .intro-desc {
     font-size: 1em;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
-.intro-image {
-    width: 100px;
-    height: 100px;
-} */
+.intro-img {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    clip-path: circle();
+}

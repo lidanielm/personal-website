@@ -3,23 +3,26 @@
 }
 
 .section {
-    margin-left: 350px;
-    margin-right: 350px;
-    margin-bottom: 100px;
+    /* margin-left: 350px;
+    margin-right: 350px; */
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .section-title {
     font-size: 1.5em;
+    align-self: flex-start;
 }
 
 h1 {
     text-align: left;
     font-size: 2em;
-}
-
-.job-experience {
-    margin-top: 10px;
-    margin-bottom: 50px;
 }
 
 .job-header,
@@ -54,8 +57,7 @@ h4 {
 
 .job-experience,
 .education {
-    margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .description,
@@ -64,6 +66,8 @@ h4 {
     margin-left: 25px;
     margin-right: 25px;
     line-height: 1.2;
+    margin-top: 5px;
+    margin-bottom: 0;
 }
 
 a {

@@ -2,7 +2,7 @@ import React from 'react';
 // import me from '../assets/dli2004.png';
 import './Header.css';
 
-var me = require('./assets/dli2004.png');
+var me = require('./assets/IMG_8180.png');
 
 export default function Header() {
     return (
@@ -12,6 +12,7 @@ export default function Header() {
             <p className="intro-desc">
                 Student, engineer, and maker.
             </p>
+            <hr style={{width: "800px", color: "#4a4a4a"}}></hr>
         </div>
     )
 }

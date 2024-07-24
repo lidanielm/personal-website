@@ -30,7 +30,7 @@ export default function Home() {
                         Successfully lead a team of TAs to create and obfuscate problem sets in LaTeX, while holding weekly office hours and recitation sections to help students understand course material and answer questions regarding lecture or problem sets.
                     </p>
                 </div>
-                <div className="job-experience">
+                <div className="job-experience" style={{marginBottom: 0}}>
                     <div className="job-header">
                         <div className="job-title">
                             <h2>Sushi Chef</h2>
@@ -53,17 +53,16 @@ export default function Home() {
                         </div>
                         <div className="education-dates">Aug 2023 - May 2027</div>
                     </div>
-                    <p className="description">
-                        Major in Computer Science with a minor in Mathematics, concentrating in machine learning and AI. Relevant coursework includes Data Structures & Algorithms, Machine Learning, Computer Systems, and Big Data Analytics.
-                    </p>
+                    <p className="description">GPA: 4.0/4.0</p>
+                    <p className="description">Major in Computer Science with a minor in Mathematics, concentrating in machine learning and AI. Relevant coursework includes Data Structures & Algorithms, Machine Learning, Computer Systems, and Big Data Analytics.</p>
                 </div>
             </div>
             <div className="section">
-                <h2>Projects</h2>
+                <h2 className="section-title">Projects</h2>
                 <Projects />
             </div>
             <div className="section">
-                <h2>Contact Me</h2>
+                <h2 className="section-title">Contact Me</h2>
                 <p className="contact-info">
                     <FontAwesomeIcon icon={ faPhone } className="contact-icon" />
                     &nbsp;&nbsp;Phone: +1 (267) 265-2845
