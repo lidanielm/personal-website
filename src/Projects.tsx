@@ -1,5 +1,6 @@
 import React from 'react';
 import ATX from './assets/ATX.png';
+import REDIS from './assets/redis-logo-svgrepo-com.svg';
 import './Projects.css';
 
 const ProjectList = [
@@ -10,6 +11,7 @@ const ProjectList = [
         tags: ["JavaScript", "Python", "Machine Learning"],
         startDate: "Jan 2024",
         endDate: "Present",
+        classNames: ["atx"],
         style: {
             color: "black",
             borderRadius: "10px",
@@ -18,9 +20,10 @@ const ProjectList = [
     {
         name: "Redis Client",
         description: "This Redis client is a command-line interface that allows users to interact with a Redis server. It supports basic Redis commands, uses the RESP protocol, and is written in Go.",
-        image: null,
+        image: REDIS,
         tags: ["Go"],
         startDate: "Jun 2024",
+        classNames: ["redis"],
         endDate: "Jun 2024",
         style: {
             color: "black",
@@ -39,26 +42,26 @@ const tagLogos : any = {
 }
 
 function Project(project: any) {
-    var tags = project.tags.map((tag: string) => {
-        return (
-            <div className="tag">
-                {tagLogos[tag]}
-                <p>{tag}</p>
-            </div>
-        );
-    });
+    // var tags = project.tags.map((tag: string) => {
+    //     return (
+    //         <div className="tag">
+    //             {tagLogos[tag]}
+    //             <p>{tag}</p>
+    //         </div>
+    //     );
+    // });
     return (
         <div>
             <div className="project" style={project.style}>
                 <div className="project-icon" style={project.style}>
-                    <img src={project.image} alt="project.name" style={{width: 200}}></img>
+                    <img src={project.image} alt={project.name} style={{width: 200}} className={project.classNames.join(" ")}></img>
                 </div>
                 <div className="project-info">
                     <h2 className="project-header">{project.name}</h2>
                     <p className="project-description">{project.description}</p>
-                    <div className="tag-list">
+                    {/* <div className="tag-list">
                         {tags}
-                    </div>
+                    </div> */}
                     {/* Turn this into link to atx page */}
                     {/* <div className="more-info">More info →</div> */}
                 </div>

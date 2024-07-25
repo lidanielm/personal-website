@@ -1,0 +1,17 @@
+.blog-post {
+    border: 1px solid black;
+    list-style: none;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    color: blue;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.blog-link {
+    color: blue;
+    text-decoration: none;
+
+    display: inline-block;
+    position: relative;
+}

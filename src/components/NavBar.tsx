@@ -1,18 +1,39 @@
-import React from "react"
-import "./NavBar.css"
-import { Link } from 'react-router-dom';
+import React from 'react';
+import './NavBar.css';
+import { NavLink } from 'react-router-dom';
 
 class NavBar extends React.Component {
-    render() { return (
-        <nav>
-            <ul className="nav-bar">
-                <li><Link to={"/"} className="nav-link">About</Link></li>
-                <li><Link to={"/blog"} className="nav-link">Blog</Link></li>
-                <li><Link to={""} className="nav-link">Projects</Link></li>
-            </ul>
-        </nav>
-    ) 
+    render() {
+        return (
+            <nav>
+                <ul className="nav-bar">
+                    <li>
+                        <NavLink
+                            to={'/'}
+                            className={({ isActive, isPending }) =>
+                                isPending
+                                    ? 'pending nav-link'
+                                    : isActive
+                                    ? 'active nav-link'
+                                    : 'nav-link'
+                            }>
+                            About
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to={'/blog'} className="nav-link">
+                            Blog
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to={'/portfolio'} className="nav-link">
+                            Portfolio
+                        </NavLink>
+                    </li>
+                </ul>
+            </nav>
+        );
     }
 }
 
-export default NavBar
+export default NavBar;

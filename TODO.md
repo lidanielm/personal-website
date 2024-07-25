@@ -1,9 +1,14 @@
 ### TODO
 
--   [ ] stop email scraping
--   [ ] finish main page
+-   [ ] prevent email scraping
+-   [x] finish main page
     -   [x] education
     -   [x] add projects
-    -   [ ] add profile picture
+    -   [x] add profile picture
     -   [x] fix links
 -   [ ] add blog
+    -   [x] blog post component
+    -   [ ] blog post formatting
+    -   [ ] add tags
+    -   [ ] add search
+-   [ ] add footer

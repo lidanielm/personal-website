@@ -18,7 +18,7 @@
 .intro-desc {
     font-size: 1em;
     margin: auto;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .intro-img {
@@ -26,4 +26,9 @@
     width: 150px;
     height: 150px;
     clip-path: circle();
+}
+
+.contact-icon-header {
+    font-size: 1.5em;
+    color: #696969;
 }

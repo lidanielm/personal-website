@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import Projects from './Projects';
+import Portfolio from './Projects';
 import Header from './Header';
 import NavBar from './components/NavBar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -58,8 +58,8 @@ export default function Home() {
                 </div>
             </div>
             <div className="section">
-                <h2 className="section-title">Projects</h2>
-                <Projects />
+                <h2 className="section-title">Portfolio</h2>
+                <Portfolio />
             </div>
             <div className="section">
                 <h2 className="section-title">Contact Me</h2>
