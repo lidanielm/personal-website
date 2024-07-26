@@ -8,15 +8,7 @@ class NavBar extends React.Component {
             <nav>
                 <ul className="nav-bar">
                     <li>
-                        <NavLink
-                            to={'/'}
-                            className={({ isActive, isPending }) =>
-                                isPending
-                                    ? 'pending nav-link'
-                                    : isActive
-                                    ? 'active nav-link'
-                                    : 'nav-link'
-                            }>
+                        <NavLink to={'/'} className="nav-link">
                             About
                         </NavLink>
                     </li>
