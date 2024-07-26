@@ -8,7 +8,7 @@
     -   [x] fix links
 -   [ ] add blog
     -   [x] blog post component
-    -   [ ] blog post formatting
+    -   [x] blog post formatting
     -   [x] add tags
     -   [ ] add search
 -   [ ] add footer
