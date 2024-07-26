@@ -12,17 +12,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .section-title {
     font-size: 1.5em;
     align-self: flex-start;
+	font-weight: bold;
 }
 
 h1 {
     text-align: left;
     font-size: 2em;
+	font-weight: bold;
 }
 
 .job-header,

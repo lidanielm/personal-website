@@ -9,6 +9,6 @@
 -   [ ] add blog
     -   [x] blog post component
     -   [ ] blog post formatting
-    -   [ ] add tags
+    -   [x] add tags
     -   [ ] add search
 -   [ ] add footer

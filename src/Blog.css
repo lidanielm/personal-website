@@ -4,7 +4,7 @@
     box-shadow: 2px 2px rgba(0, 0, 0, 0.1);
     list-style: none;
     margin-right: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     text-decoration: none;
     padding: 10px;
     overflow: hidden;
@@ -40,4 +40,5 @@
 
 .topic-button:hover {
     background-color: white;
+	cursor:pointer;
 }

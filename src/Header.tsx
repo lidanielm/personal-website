@@ -28,7 +28,9 @@ export default function Header() {
                         version="1.1"
                         id="Layer_1"
                         viewBox="0 0 310 310"
-                        color="#696969">
+                        color="#696969"
+						className="contact-icon-header"
+						>
                         <g id="XMLID_801_">
                             <path
                                 fill="#696969"
@@ -59,7 +61,9 @@ export default function Header() {
                         width="25px"
                         height="25px"
                         version="1.1"
-                        viewBox="0 0 100 100">
+                        viewBox="0 0 100 100"
+						className="contact-icon-header"
+						>
                         <g>
                             {' '}
                             <path
