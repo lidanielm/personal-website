@@ -21,10 +21,14 @@
 .atx {
     color: black;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .redis {
-	margin: auto;
+    margin: auto;
 }
 
 .project-info {
@@ -33,7 +37,7 @@
     line-height: 1.2;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: stretch;
 }
 
