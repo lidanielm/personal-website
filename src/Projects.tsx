@@ -31,6 +31,32 @@ const ProjectList = [
             color: 'black',
         },
     },
+    {
+        name: 'Personal Website',
+        description:
+            "This website is a personal portfolio site built with React, containing information about me and my portfolio. I have a blog that' going to be updated soon (hopefully).",
+        image: REDIS,
+        tags: ['React', 'Tailwind'],
+        startDate: 'Jun 2024',
+        classNames: ['personal-website'],
+        endDate: 'Present',
+        style: {
+            color: 'black',
+        },
+    },
+    {
+        name: 'PhilaSUG Website',
+        description:
+            'The Philadelphia SAS Users Group (PhilaSUG) website is a static site built with Hugo. It features information about the group, upcoming events, and resources for SAS users in the greater Philadelphia area. The website is built using React and Tailwind.',
+        image: REDIS,
+        tags: ['React', 'Tailwind'],
+        startDate: 'Jun 2024',
+        classNames: ['philasug'],
+        endDate: 'Aug 2024',
+        style: {
+            color: 'black',
+        },
+    },
 ];
 
 const tagLogos: any = {
