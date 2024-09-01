@@ -24,6 +24,22 @@ export default function Home() {
             </div>
             <div className="section">
                 <h2 className="section-title">Work Experience</h2>
+                <div className="job-experience" style={{ marginBottom: 0 }}>
+                    <div className="job-header">
+                        <div className="job-title">
+                            <h2>Web Developer</h2>
+                            <h4>PhilaSUG</h4>
+                        </div>
+                        <div className="job-dates">Jun 2024 - Aug 2024</div>
+                    </div>
+                    <p className="description">
+                        Developed the Philadelphia SAS Users Group (PhilaSUG)
+                        website using React and TailwindCSS, which features
+                        information about the group, upcoming events, and
+                        resources for SAS users in the greater Philadelphia
+                        area.
+                    </p>
+                </div>
                 <div className="job-experience">
                     <div className="job-header">
                         <div className="job-title">

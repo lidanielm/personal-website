@@ -1,6 +1,8 @@
 import React from 'react';
 import ATX from './assets/ATX.png';
 import REDIS from './assets/redis-logo-svgrepo-com.svg';
+import PHILASUGBELL from './assets/bell.png';
+import GRAYPERSONICON from './assets/gray-person-icon.png';
 import './Projects.css';
 
 const ProjectList = [
@@ -35,7 +37,7 @@ const ProjectList = [
         name: 'Personal Website',
         description:
             "This website is a personal portfolio site built with React, containing information about me and my portfolio. I have a blog that' going to be updated soon (hopefully).",
-        image: REDIS,
+        image: GRAYPERSONICON,
         tags: ['React', 'Tailwind'],
         startDate: 'Jun 2024',
         classNames: ['personal-website'],
@@ -48,7 +50,7 @@ const ProjectList = [
         name: 'PhilaSUG Website',
         description:
             'The Philadelphia SAS Users Group (PhilaSUG) website is a static site built with Hugo. It features information about the group, upcoming events, and resources for SAS users in the greater Philadelphia area. The website is built using React and Tailwind.',
-        image: REDIS,
+        image: PHILASUGBELL,
         tags: ['React', 'Tailwind'],
         startDate: 'Jun 2024',
         classNames: ['philasug'],
@@ -84,7 +86,7 @@ function Project(project: any) {
                     <img
                         src={project.image}
                         alt={project.name}
-                        style={{ width: 200 }}
+                        style={{ width: 180, height: 180 }}
                         className={project.classNames.join(' ')}></img>
                 </div>
                 <div className="project-info">
