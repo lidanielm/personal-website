@@ -1,6 +1,6 @@
 import React from 'react';
 import ATX from './assets/ATX.png';
-import REDIS from './assets/redis-logo-svgrepo-com.svg';
+import REDIS from './assets/redis-logo.png';
 import PHILASUGBELL from './assets/bell.png';
 import GRAYPERSONICON from './assets/gray-person-icon.png';
 import './Projects.css';
@@ -36,7 +36,7 @@ const ProjectList = [
     {
         name: 'Personal Website',
         description:
-            "This website is a personal portfolio site built with React, containing information about me and my portfolio. I have a blog that' going to be updated soon (hopefully).",
+            "This website is a personal portfolio site built with React, containing information about me and my portfolio. I have a blog that's going to be updated soon (hopefully).",
         image: GRAYPERSONICON,
         tags: ['React', 'Tailwind'],
         startDate: 'Jun 2024',
@@ -49,7 +49,7 @@ const ProjectList = [
     {
         name: 'PhilaSUG Website',
         description:
-            'The Philadelphia SAS Users Group (PhilaSUG) website is a static site built with Hugo. It features information about the group, upcoming events, and resources for SAS users in the greater Philadelphia area. The website is built using React and Tailwind.',
+            'The Philadelphia SAS Users Group (PhilaSUG) website is a site built with React and Tailwind that features information about the group, upcoming events, and resources for SAS users in the greater Philadelphia area.',
         image: PHILASUGBELL,
         tags: ['React', 'Tailwind'],
         startDate: 'Jun 2024',
@@ -80,26 +80,30 @@ function Project(project: any) {
     //     );
     // });
     return (
-        <div>
-            <div className="project" style={project.style}>
-                <div className="project-icon" style={project.style}>
-                    <img
-                        src={project.image}
-                        alt={project.name}
-                        style={{ width: 180, height: 180 }}
-                        className={project.classNames.join(' ')}></img>
-                </div>
-                <div className="project-info">
-                    <h2 className="project-header">{project.name}</h2>
-                    <p className="project-description">{project.description}</p>
-                    {/* <div className="tag-list">
-                        {tags}
-                    </div> */}
-                    {/* Turn this into link to atx page */}
-                    {/* <div className="more-info">More info →</div> */}
+        <>
+            <div>
+                <div className="project" style={project.style}>
+                    <div className="project-icon" style={project.style}>
+                        <img
+                            src={project.image}
+                            alt={project.name}
+                            style={{ width: '150px' }}
+                            className={project.classNames.join(' ')}></img>
+                    </div>
+                    <div className="project-info">
+                        <h2 className="project-header">{project.name}</h2>
+                        <p className="project-description">
+                            {project.description}
+                        </p>
+                        {/* <div className="tag-list">
+                            {tags}
+                        </div> */}
+                        {/* Turn this into link to atx page */}
+                        {/* <div className="more-info">More info →</div> */}
+                    </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 }
 

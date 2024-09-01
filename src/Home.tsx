@@ -24,7 +24,7 @@ export default function Home() {
             </div>
             <div className="section">
                 <h2 className="section-title">Work Experience</h2>
-                <div className="job-experience" style={{ marginBottom: 0 }}>
+                <div className="job-experience">
                     <div className="job-header">
                         <div className="job-title">
                             <h2>Web Developer</h2>
@@ -40,7 +40,7 @@ export default function Home() {
                         area.
                     </p>
                 </div>
-                <div className="job-experience">
+                <div className="job-experience" style={{ marginBottom: 0 }}>
                     <div className="job-header">
                         <div className="job-title">
                             <h2>Teaching Assistant — Discrete Mathematics</h2>
@@ -56,7 +56,7 @@ export default function Home() {
                         or problem sets.
                     </p>
                 </div>
-                <div className="job-experience" style={{ marginBottom: 0 }}>
+                {/* <div className="job-experience" style={{ marginBottom: 0 }}>
                     <div className="job-header">
                         <div className="job-title">
                             <h2>Sushi Chef</h2>
@@ -71,7 +71,7 @@ export default function Home() {
                         management system to reduce food waste, and improved
                         website design to simplify online ordering process.
                     </p>
-                </div>
+                </div> */}
             </div>
             <div className="section">
                 <h2 className="section-title">Education</h2>
@@ -88,8 +88,10 @@ export default function Home() {
                     <p className="description">GPA: 4.0/4.0</p>
                     <p className="description">
                         Major in Computer Science with a minor in Mathematics,
-                        concentrating in machine learning and AI. Relevant
-                        coursework includes Data Structures & Algorithms,
+                        concentrating in machine learning and AI.
+                    </p>
+                    <p className="description">
+                        Relevant coursework: Data Structures & Algorithms,
                         Machine Learning, Computer Systems, and Big Data
                         Analytics.
                     </p>
